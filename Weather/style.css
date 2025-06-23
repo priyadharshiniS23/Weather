@@ -1,0 +1,43 @@
+body {
+    
+    background-image: url('image/background.jpg.avif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+   
+    
+}
+
+.container {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    background: whitesmoke;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0px 0px 10px #aaa;
+}
+
+input, button {
+    width: 80%;
+    padding: 10px;
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+#weatherData {
+    margin-top: 20px;
+}
